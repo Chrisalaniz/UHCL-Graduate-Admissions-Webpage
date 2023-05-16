@@ -1,4 +1,3 @@
-# UHCL-Graduate-Admissions-Webpage
 <h1>UHCL Graduate Admissions Webpage</h1>
 
 <h2>Description</h2>
