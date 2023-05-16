@@ -1,0 +1,485 @@
+body {
+    width: 650px;
+    margin: auto;
+}
+
+/*Centers the image*/
+.center1 {
+    text-align: center;
+    margin-left: 10px;
+    width: 614px;
+}
+/*Centers the text below the image*/
+.center {
+    text-align: center;
+    margin-top: 10px;
+    width: 650px;
+}
+/*For the blue text below the image */
+.blueMessage {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: steelblue;
+    font-size: 12px;
+    font-family: Arial;
+}
+/*For the red text below the image*/
+.redMessage {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: indianred;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.requiredField {
+    margin-left: 550px;
+    color: indianred;
+    font-size: 13px;
+}
+/*Border*/
+.border {
+    margin-top: 30px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-bottom: 5px;
+    width: 650px;
+}
+
+/*Border inside another border*/
+.insideBorder {
+    border-bottom: groove;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 650px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 77%;
+    font-family: Arial;
+}
+
+/*For the student information*/
+#reqFirstName {
+    display: inline;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#reqLastName {
+    display: inline;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 222px;
+    font-family: Arial;
+}
+
+#firstNameTxt {
+    display: inline;
+    margin-left: 5px;
+    width: 272px;
+    margin-bottom: 5px;
+}
+
+#lastNameTxt {
+    display: inline;
+    margin-left: 8px;
+    width: 272px;
+}
+
+#DOBlbl {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#genderLbl {
+    display: inline;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 160px;
+    font-family: Arial;
+}
+
+#dateOfBirthTxt {
+    display: inline;
+    margin-left: 5px;
+    width: 205px;
+}
+
+#ddlGender {
+    display: inline;
+    margin-left: 23px;
+    width: 195px;
+}
+
+#dateFormatLbl {
+    display: block;
+    margin-left: 5px;
+    font-size: small;
+    font-family: Arial;
+}
+
+/*For the contact information*/
+#reqMailAddress {
+    display: inline;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#mailAddressTxt {
+    display: block;
+    margin-left: 5px;
+    width: 380px;
+    margin-bottom: 5px;
+}
+
+#MailAddresslbl {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#mailAdressTxt2 {
+    display: block;
+    margin-left: 5px;
+    width: 380px;
+    margin-bottom: 5px;
+}
+
+#lblCity {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+
+#lblState {
+    display: inline;
+    margin-left: 260px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#lblZipCode {
+    display: inline;
+    margin-left: 100px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#cityTxt {
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 272px;
+}
+
+#ddlState{
+    display: inline;
+    margin-left: 8px;
+    width: 125px;
+}
+
+#zipCodeTxt {
+    display: inline;
+    margin-left: 13px;
+    width: 145px;
+}
+
+#block{
+    display: block;
+}
+
+#lblMobile {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#lblMay {
+    display: inline;
+    margin-left: 200px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#phoneNumTxt1 {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 205px;
+}
+
+
+#ddlMay{
+    display: inline;
+    margin-left: 30px;
+    width: 180px;
+}
+
+#otherPhonelbl {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#otherPhoneTxt1 {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 205px;
+}
+
+
+#emailAddresslbl {
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#emailAddTxt {
+    display: block;
+    margin-left: 5px;
+    width: 380px;
+    margin-bottom: 5px;
+}
+
+/*For the academic information*/
+#semesterlbl {
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#campuslbl {
+    display: inline;
+    margin-left: 60px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#ddlSemester {
+    display: inline;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 210px;
+}
+
+#ddlCampus {
+    display: inline;
+    margin-left: 10px;
+    width: 200px
+}
+
+#programlbl {
+    display: inline;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#speciallbl {
+    display: inline;
+    font-size: 12px;
+    margin-left: 205px;
+    font-family: Arial;
+}
+
+#ddlProgram{
+    display: inline;
+    margin-left: 5px;
+    width: 305px;
+    margin-bottom: 5px;
+}
+
+#ddlSpecial {
+    display: inline;
+    margin-left: 10px;
+    width: 260px;
+}
+
+#internationallbl {
+    display: inline;
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: Arial;
+}
+
+#ddlInternational {
+    display: block;
+    margin-left: 5px;
+    width: 190px;
+}
+
+/*For the Housing information*/
+#lblHousing {
+    display: block;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#ddlHousing {
+    display: block;
+    margin-left: 5px;
+    width: 130px;
+}
+
+/*For the Veteran information*/
+#lblVetInfo {
+    display: block;
+    margin-left: 5px;
+    color: indianred;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#ddlVet {
+    display: block;
+    margin-left: 5px;
+    width: 130px;
+}
+
+/*For the UHCL information*/
+#lblInfo {
+    display: block;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+#ListBoxUHCL {
+    display: block;
+    margin-left: 5px;
+    width: 240px;
+}
+
+#BtnSubmit{
+    margin-top: 10px;
+}
+
+#BtnClear {
+    margin-left: 20px;
+}
+
+#msg1 {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#msg2 {
+    display: block;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#msg3 {
+    display: block;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+#successlbl{
+    font-family: Arial;
+    color: green;
+    margin-left: 10px;
+}
+
+#RFVFirstName {
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#RFVLastName {
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#RFVDob {
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#REVDob {
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#RFVMailingAdd {
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#CVState {
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.controlVal {
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 11px;
+}
+.controlValNext {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 11px;
+}
